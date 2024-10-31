@@ -1,1 +1,5 @@
-This is the set up.
+Frontend: 
+
+Backend:
+
+Database:
