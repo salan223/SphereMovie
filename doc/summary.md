@@ -14,4 +14,3 @@ Log In/Sign Up: Users create accounts to access the review feature and other per
 
 Key Usage Scenarios:
 Jen is a passionate movie lover who is excited to explore new films on SphereMovie. After creating an account, she quickly navigates through the site’s trailers to discover the trailers. Intrigued by a trailer, she previews it to see if it’s her style. After watching, Jen decides to leave a review to share her thoughts with other users. By logging into her account, she can access previous reviews and get movie suggestions.
-ss
