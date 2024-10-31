@@ -1,1 +1,1 @@
-this is user interface
+This is the user experience/ interface.
