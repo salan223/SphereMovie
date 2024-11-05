@@ -1,1 +1,1 @@
-hello world. Hello Allen!
+The idea of SpehereMovie was to simplify the process of exploring new movie releases wherein the user can watch new movie release trailers, access information about the movie and share their reviews and thoughts about the movie. With the 
