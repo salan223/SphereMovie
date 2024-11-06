@@ -1,5 +1,6 @@
 User Stories:
 
+
 As a casual user I want to be on a website with easy to navigate content and user friendly and responsive website.
 Criteria of Satisfaction: Clean website with only required information and organized for easy navigation, various smooth transitions between pages and button clicks.
 
