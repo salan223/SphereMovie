@@ -1,10 +1,12 @@
+package dev.spheremovie.spheremovie;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.annotation.Id;
 import org.bson.types.ObjectId;
+
+import java.util.LocalDateTime;
 
 @Document(collection = "reviews")
 @Data
@@ -15,7 +17,12 @@ public class Review {
     private ObjectId id;
     private String body;
 
-    public Review(String body) {
+    private LocalDateTime created;
+    private LocalDateTime updated;
+
+    public Review(String body, LocalDateTime created, LocalDateTime updated) {
         this.body = body;
+        this.created = created;
+        this.updated = updated;
     }
 }

@@ -1,3 +1,4 @@
+package dev.spheremovie.spheremovie;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
