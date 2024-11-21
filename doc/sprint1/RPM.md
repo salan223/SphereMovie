@@ -5,7 +5,7 @@ Platform: Discord
 
 Coordinator: Murtaza Hussaini
 
-Release goal: With these released features, the users can access browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
+Release goal: With these released features in SphereMovie, the users can access the functionality of browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
 
 Scope of the project: 
   1. Browse Movies
