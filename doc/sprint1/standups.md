@@ -1,9 +1,13 @@
 # Standup 1 - November 8th, 2024
 ## Murtaza Hussaini
-  1. Worked on
-  2. Commit to
-  3. Done by
-  4. No blockers
+  1. Worked on:
+- Researching and setting up the project structure for the backend.
+- Installed the required software: JDK 17, IntelliJ IDEA, and MongoDB Atlas.
+- Configured the initial database and project with MongoDB Compass and created a new cluster for the movie database.
+
+  3. Commit to: Begin API development for fetching movies.
+  4. Done by Tomorrow
+  5. No blockers
 
 ## Karishma Maharjan
   1. Worked on researching the backend and database
@@ -26,10 +30,13 @@
 
 # Standup 2 - November 11th, 2024
 ## Murtaza Hussaini
-  1. Worked on implementing the backend for movies
-  2. Commit to
-  3. Done by
-  4. No blockers
+  1. Worked on:
+- Initialized Spring Boot project with dependencies like Lombok, Spring Web, and Spring Data MongoDB.
+- Created the schema for the movie model and connected it to the database.
+- Implemented the first API endpoint to fetch all movies from the MongoDB database.
+  3. Commit to add API endpoint for fetching individual movies by their IMDb ID.
+  4. Done by November 13th.
+  5. No blockers
 
 ## Karishma Maharjan
   1. Worked on installing, setting the database, and working on RPM.md file
@@ -52,10 +59,11 @@
 
 # Standup 3 - November 14th, 2024
 ## Murtaza Hussaini
-  1. Worked on the spheremovie application
-  2. Commit to
-  3. Done by
-  4. No blockers
+  1. Worked on:
+Add backend functionality for creating and associating reviews with movies.
+  3. Commit to add backend functionality for creating and associating reviews with movies.
+  4. Done by November 17th.
+  5. No blockers
 
 ## Karishma Maharjan
   1. Worked on implementing some of the backend for movies
@@ -78,10 +86,11 @@
 
 # Standup 4 - November 19th, 2024
 ## Murtaza Hussaini
-  1. Worked on
-  2. Commit to
-  3. Done by
-  4. No blockers
+  1. Worked on:
+Implemented the backend logic to create new reviews and link them to movies via the MongoDB template.
+  3. Commit to inalize all backend features and test the API thoroughly.
+  4. Done by November 21st.
+  5. No blockers
 
 ## Karishma Maharjan
   1. Worked on implementing the rest of the backend for reviews, updated RPM.md and work on sprint1.md file
@@ -104,9 +113,9 @@
 
 # Standup 5 - November 21st, 2024
 ## Murtaza Hussaini
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on ensuring secure handling of sensitive data using environment variables for MongoDB credentials.
+  2. Commit to support team with backend debugging during integration.
+  3. Done by End of Sprint 1.
   4. No blockers
 
 ## Karishma Maharjan
