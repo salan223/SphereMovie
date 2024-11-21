@@ -1,4 +1,4 @@
-Release goal: 
+Release goal: With these released features, the users 
 
 Scope of the project(key features): 
 
