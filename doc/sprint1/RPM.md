@@ -24,4 +24,4 @@ Participants:
   1. Murtaza Hussaini - Project Manager, Backend developer, Database
   2. Karishma Maharjan - Backend developer, Database and Reviewer
   3. Salan Bhattarai - Frontend developer and Reviewer
-  4. Allen Abraham - Frontend developer and Reviewer
+  4. Allen Abraham - Frontend developer, Reviewer
