@@ -16,9 +16,9 @@
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on researching front-end best practices and preparing for project setup. Also explored React features and reviewed folder structure for components.
+  2. Commit to begin setting up the project and installing necessary NPM packages.
+  3. Done by November 11th.
   4. No blockers
 
 ## Allen Abraham
@@ -45,9 +45,10 @@
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on installing necessary NPM packages: Axios, React Router DOM, Material UI, and Bootstrap.
+Set up the folder structure for React components.
+  2. Commit to start working on the homepage layout and hero carousel.
+  3. Done by November 14th.
   4. No blockers
 
 ## Allen Abraham
@@ -72,9 +73,10 @@ Add backend functionality for creating and associating reviews with movies.
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on designing the homepage layout and implemented the hero carousel with Material UI.
+Integrated movie data from the API to display trending movies in the carousel.
+  2. Commit to Work on movie trailer functionality and styling adjustments for the carousel.
+  3. Done by November 19th.
   4. No blockers
 
 ## Allen Abraham
@@ -99,9 +101,9 @@ Implemented the backend logic to create new reviews and link them to movies via 
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on implementing movie trailer functionality using React Player.
+  2. Commit to start building the reviews page and integrate it with the backend.
+  3. Done by November 21st.
   4. No blockers
 
 ## Allen Abraham
@@ -125,9 +127,9 @@ Implemented the backend logic to create new reviews and link them to movies via 
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on completing the reviews page and styled the layout using React Bootstrap.
+  2. Commit to support final debugging and help with preparing for the demo video.
+  3. Done by the end of Sprint 1.
   4. No blockers
 
 ## Allen Abraham
