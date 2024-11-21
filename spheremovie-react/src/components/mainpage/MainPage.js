@@ -1,4 +1,4 @@
-import './Hero.css';
+import './MainPage.css';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

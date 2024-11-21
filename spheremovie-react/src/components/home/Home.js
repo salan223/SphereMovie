@@ -1,4 +1,4 @@
-import Hero from '../hero/Hero';
+import Hero from '../mainpage/MainPage';
 
 const Home = ({movies}) => {
   return (
