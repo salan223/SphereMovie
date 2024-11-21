@@ -84,7 +84,7 @@
   4. No blockers
 
 ## Karishma Maharjan
-  1. Worked on implementing the rest of the backend for reviews, and work on sprint1.md file
+  1. Worked on implementing the rest of the backend for reviews, updated RPM.md and work on sprint1.md file
   2. Commit to working on the application of the website and on system design document
   3. Done by November 21st
   4. No blockers
