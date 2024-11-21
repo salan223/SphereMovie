@@ -18,9 +18,9 @@
   4. No blockers
 
 ## Allen Abraham
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on researching front end development
+  2. Commit to installing npm packages and work on the RPM.md file
+  3. Done by day November 11, 2024
   4. No blockers
 
 
@@ -44,9 +44,9 @@
   4. No blockers
 
 ## Allen Abraham
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on installing npm packages and work on the RPM.md file
+  2. Commit to start the front end code and testing
+  3. Done by November 14, 2024
   4. No blockers
 
 
@@ -70,9 +70,9 @@
   4. No blockers
 
 ## Allen Abraham
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on starting the front end code and testing
+  2. Commit to continuing front end code, testing and working on sprint 1.md
+  3. Done by November 19, 2024
   4. No blockers
 
 
@@ -96,9 +96,9 @@
   4. No blockers
 
 ## Allen Abraham
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on continuing front end code, testing and working on sprint 1.md
+  2. Commit to finishing touches of the front end portion and testing the website
+  3. Done by November 21, 2024
   4. No blockers
 
 
@@ -122,7 +122,7 @@
   4. No blockers
 
 ## Allen Abraham
-  1. Worked on
-  2. Commit to
-  3. Done by
+  1. Worked on testing the actual website making necessary changes
+  2. Commit to working on the 3 minute video for demo and system design document
+  3. Done by Today
   4. No blockers
