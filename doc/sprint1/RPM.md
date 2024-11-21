@@ -1,6 +1,8 @@
 
 Meeting Date and Time: Nov 7th, 2024, 11:35am
+
 Platform: Discord
+
 Coordinator: Murtaza Hussaini
 
 Release goal: With these released features, the users can access browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
