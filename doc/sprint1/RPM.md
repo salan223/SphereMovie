@@ -5,7 +5,7 @@
 Discord
 
 ### Coordinator: 
-Murtaza Hussaini
+Murtaza
 
 ### Release goal: 
 With these released features in SphereMovie, the users can access the functionality of browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
