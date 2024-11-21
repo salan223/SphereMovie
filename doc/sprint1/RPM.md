@@ -1,13 +1,16 @@
 
-Meeting Date and Time: Nov 7th, 2024, 11:35am
+## Meeting Date and Time: Nov 7th, 2024, 11:35am
 
-Platform: Discord
+### Platform:
+Discord
 
-Coordinator: Murtaza Hussaini
+### Coordinator: 
+Murtaza Hussaini
 
-Release goal: With these released features in SphereMovie, the users can access the functionality of browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
+### Release goal: 
+With these released features in SphereMovie, the users can access the functionality of browsing movies, watching any selected movie trailers, and leave or edit trailer reviews. 
 
-Scope of the project: 
+### Scope of the project: 
   1. Browse Movies
      - Users can access to browse any movies that are trending or suggestions. 
      - User Story: Being a casual user, I want to be able to browse the homepage to view trending movies and movie suggestions. Criteria of Satisfaction: Trending and Top movies section that is clearly displayed on the landing page on home screen.
@@ -20,7 +23,7 @@ Scope of the project:
      - Users can leave or edit reviews to the movie trailers. 
      - User Story: Leaving reviews on movies to share thoughts. Criteria of Satisfaction: Users can add rating and text reviews, which displays on the movie page with username and rating and comments.
 
-Participants: 
+### Participants: 
   1. Murtaza Hussaini - Project Manager, Backend developer, Database
   2. Karishma Maharjan - Backend developer, Database and Reviewer
   3. Salan Bhattarai - Frontend developer and Reviewer
