@@ -25,3 +25,14 @@ Each of our team members commited at least up to 20 hours per week which totals 
   - users to have access to notifications for any likes, reviews, or any upcoming new movie trailers 
 
 ### Task breakdowns: 
+- Database Setup: Design schemas for movies, users, reviews, and watchlists.
+API Development: Create endpoints for movies, trailers and reviews.
+Authentication: Implement login/signup and guest access for trailers and reviews.
+- Frontend Development
+Homepage: Display trending movies, suggestions, and navigation.
+Trailer Page: Trailers, descriptions, and reviews.
+Reviews: Enable submitting reviews with display features.
+Responsive Design: Ensure mobile-friendly layouts.
+Project Management
+Assign tasks and organize sprints.
+Test features for functionality and usability.
