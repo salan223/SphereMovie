@@ -16,7 +16,7 @@
   4. No blockers
 
 ## Salan Bhattarai
-  1. Worked on researching front-end best practices and preparing for project setup. Also explored React features and reviewed folder structure for components.
+  1. Worked on researching front-end best practices and preparing for project setup. Also explored React features and reviewed folder structure for components. As well as designed the layout of the landing page and worked with Allen to efficently design the front end functionalities.
   2. Commit to begin setting up the project and installing necessary NPM packages.
   3. Done by November 11th.
   4. No blockers
