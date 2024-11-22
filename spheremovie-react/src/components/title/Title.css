@@ -1,0 +1,202 @@
+/* Header Styles */
+.portfolio-header {
+    background: linear-gradient(90deg, #0d1b2a, #1b263b); /* Dark gradient background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.portfolio-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.brand-logo {
+    margin-right: 10px; /* Space between logo and text */
+    font-size: 30px; /* Adjust logo size */
+    color: #f39c12; /* Logo color */
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px; /* Increased spacing between links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Links Styling */
+.nav-item {
+    text-decoration: none; /* Remove underline */
+    color: #ccc; /* Default color */
+    font-size: 22px; /* Bigger font size */
+    font-weight: 800; /* Bold text */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-item:hover {
+    color: #1fc8db; /* Change color on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Trending Movies Link */
+.trending-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: #f39c12; /* Fire orange color */
+    font-size: 22px; /* Match font size with other links */
+    font-weight: 800; /* Bold text */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.trending-link:hover {
+    color: #e67e22; /* Slightly darker orange on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.fire-icon {
+    margin-right: 5px; /* Add spacing between the fire icon and text */
+}
+
+/* Dropdown Toggle Styling */
+.nav-links .dropdown-toggle {
+    text-decoration: none; /* Remove underline */
+    color: #ccc; /* Default color */
+    font-size: 22px; /* Bigger font size */
+    font-weight: 800; /* Bold text */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links .dropdown-toggle:hover {
+    color: #1fc8db; /* Hover color */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #343a40; /* Dark dropdown background */
+    border: none;
+    margin-top: 5px;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #495057; /* Darker grey on hover */
+    color: #1fc8db;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn,
+.register-btn {
+    background-color: transparent;
+    border: 2px solid #1fc8db;
+    color: #1fc8db;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #1fc8db;
+    color: #fff;
+}
+
+/* Typing Effect Styles */
+.typing-effect-container {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.typing-effect {
+    color: #1fc8db;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #1fc8db;
+    animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
+}
+
+/* Keyframes for Typing Effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: #1fc8db;
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Stack navigation links on smaller screens */
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .nav-item,
+    .trending-link {
+        font-size: 18px; /* Slightly smaller font for smaller screens */
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .brand {
+        font-size: 20px; /* Adjust title size on smaller screens */
+    }
+
+    .brand-logo {
+        font-size: 25px; /* Adjust logo size for smaller screens */
+    }
+}

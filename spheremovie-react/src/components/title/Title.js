@@ -1,35 +1,97 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideoSlash } from "@fortawesome/free-solid-svg-icons";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container"
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Dropdown from "react-bootstrap/Dropdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilm } from "@fortawesome/free-solid-svg-icons";
+import { faFire } from "@fortawesome/free-solid-svg-icons";
+import "./Title.css";
 
 const Title = () => {
+    const [displayText, setDisplayText] = useState("");
+    const [isDeleting, setIsDeleting] = useState(false);
+    const [loopIndex, setLoopIndex] = useState(0);
+    const [typingSpeed, setTypingSpeed] = useState(150);
+
+    const words = ["Discover Blockbusters", "Watch Trailers", "Become a Movie Critic", "Uncover Trending Films",]; // Words to type
+
+    useEffect(() => {
+        const currentWord = words[loopIndex % words.length];
+
+        const handleTyping = () => {
+            if (!isDeleting) {
+                // Add characters
+                setDisplayText((prev) => currentWord.substring(0, prev.length + 1));
+
+                if (displayText === currentWord) {
+                    setIsDeleting(true); // Start deleting
+                    setTypingSpeed(100); // Adjust speed for deleting
+                }
+            } else {
+                // Remove characters
+                setDisplayText((prev) => currentWord.substring(0, prev.length - 1));
+
+                if (displayText === "") {
+                    setIsDeleting(false); // Start typing next word
+                    setLoopIndex((prev) => prev + 1);
+                    setTypingSpeed(150); // Reset speed for typing
+                }
+            }
+        };
+
+        const timer = setTimeout(handleTyping, typingSpeed);
+
+        return () => clearTimeout(timer);
+    }, [displayText, isDeleting, loopIndex, typingSpeed, words]);
 
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
-            <Container fluid>
-                <Navbar.Brand href="/" style={{ "color": 'skyblue' }}>
-                    <FontAwesomeIcon icon={faVideoSlash} />SphereMovie
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                        className="me-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
-                        navbarScroll
-                    >
-                        <NavLink className="nav-link" to="/" style={{ color: "red"}}>Home</NavLink>
-                        <NavLink className="nav-link" to="/watchList" style={{ color: "red"}}>Watch List</NavLink>
-                    </Nav>
-                    <Button variant="outline-info" className="me-2">Login</Button>
-                    <Button variant="outline-info">Register</Button>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    )
-}
+        <header className="portfolio-header">
+            <nav className="portfolio-navbar">
+                <div className="brand">
+                    <FontAwesomeIcon icon={faFilm} className="brand-logo" /> SphereMovie
+                </div>
+                <ul className="nav-links">
+                <li>
+                        <a href="https://www.netflix.com/tudum/top10/" target="_blank" rel="noopener noreferrer" className="trending-link">
+                            <FontAwesomeIcon icon={faFire} className="fire-icon" /> Trending
+                        </a>
+                    </li>
+                    <li><NavLink to="/" className="nav-item">Home</NavLink></li>
+                    
+                    <li>
+                        <Dropdown>
+                            <Dropdown.Toggle className="dropdown-toggle" variant="link">
+                                Movies
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                                <Dropdown.Item href="https://www.cineplex.com/#cineplex-movies-grid" target="_blank" rel="noopener noreferrer">
+                                    Watch on Nearby Theatres
+                                </Dropdown.Item>
+                                <Dropdown.Item href="https://www.netflix.com/tudum/top10/" target="_blank" rel="noopener noreferrer">
+                                    Trending Movies
+                                </Dropdown.Item>
+                                <Dropdown.Item href="https://www.imdb.com/calendar/" target="_blank" rel="noopener noreferrer">
+                                    Coming Soon to Theaters
+                                </Dropdown.Item>
+                                <Dropdown.Item href="https://www.youtube.com/@FREEMOVIESYT/featured" target="_blank" rel="noopener noreferrer">
+                                    Certified Free Movies
+                                </Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    </li>
+                    <li><NavLink to="/watchlist" className="nav-item">Watch List</NavLink></li>
+                   
+                </ul>
+                <div className="auth-buttons">
+                    <button className="login-btn">Login</button>
+                    <button className="register-btn">Register</button>
+                </div>
+            </nav>
+            <div className="typing-effect-container">
+                <h1 className="main-title">Welcome to SphereMovie</h1>
+                <p className="typing-effect">{displayText}<span className="cursor">|</span></p>
+            </div>
+        </header>
+    );
+};
 
-export default Title
+export default Title;
