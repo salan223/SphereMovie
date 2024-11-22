@@ -1,4 +1,4 @@
-package dev.spheremovie.spheremovie;
+package groupthree.spheremovie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

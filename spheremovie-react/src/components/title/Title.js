@@ -12,7 +12,7 @@ const Title = () => {
     const [loopIndex, setLoopIndex] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(150);
 
-    const words = ["Discover Blockbusters", "Watch Trailers", "Become a Movie Critic", "Uncover Trending Films",]; // Words to type
+    const words = ["Discover Blockbusters", "Watch Trailers", "Become a Movie Critic", "Uncover Trending Films"]; // Words to type
 
     useEffect(() => {
         const currentWord = words[loopIndex % words.length];
