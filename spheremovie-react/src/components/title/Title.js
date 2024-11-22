@@ -11,7 +11,7 @@ const Title = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container fluid>
-                <Navbar.Brand href="/" style={{ "color": 'red' }}>
+                <Navbar.Brand href="/" style={{ "color": 'skyblue' }}>
                     <FontAwesomeIcon icon={faVideoSlash} />SphereMovie
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,8 +21,8 @@ const Title = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <NavLink className="nav-link" to="/">Home</NavLink>
-                        <NavLink className="nav-link" to="/watchList">Watch List</NavLink>
+                        <NavLink className="nav-link" to="/" style={{ color: "red"}}>Home</NavLink>
+                        <NavLink className="nav-link" to="/watchList" style={{ color: "red"}}>Watch List</NavLink>
                     </Nav>
                     <Button variant="outline-info" className="me-2">Login</Button>
                     <Button variant="outline-info">Register</Button>
