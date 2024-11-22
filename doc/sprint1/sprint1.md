@@ -35,4 +35,4 @@ Reviews: Enable submitting reviews with display features.
 Responsive Design: Ensure mobile-friendly layouts.
 Project Management
 Assign tasks and organize sprints.
-Test features for functionality and usability.
+Test features for functionality and usability. 
