@@ -1,4 +1,4 @@
-## Sprint Goal: Goal is to create the features in SphereMovie to have the functionality for users to access watching trailers, adding trailers to watchlist, searching movies, and multilingual language.
+## Sprint Goal: Goal is to create the features in SphereMovie to have the functionality for users to access watching and reviewing trailers, to add trailers to the watchlist, searching movies, and multilingual language.
 
 ### User Stories identified: 
   1. 
