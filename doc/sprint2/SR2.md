@@ -7,11 +7,13 @@ Discord
 Murtaza Hussaini
 
 ### Release goal: 
-With these released features in SphereMovie, the users can access...
+With these released features in SphereMovie, the users can access watching and reviewing trailers, to add trailers to the watchlist, searching movies, and multilingual language.
 
 ### Participants: 
-  1. Murtaza Hussaini - Project Manager, Backend developer, Database
-  2. Karishma Maharjan - Backend developer, Database and Reviewer
-  3. Salan Bhattarai - Frontend developer and Reviewer 
-  4. Allen Abraham - Frontend developer, Reviewer
+  1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
+  2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Documents
+  3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Documents
+  4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
+
+
 
