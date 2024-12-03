@@ -16,8 +16,6 @@ As a user, I want to create a watchlist to save movies to watch later. Criteria 
 
 I want to get notifications for likes or reply to my reviews on movie trailers. Criteria of Satisfaction: Users get notifications immediately when another user likes or replies to their reviews.
 
-I want to watch the movie trailers and read comments without having to log in. Criteria of Satisfaction: Users are able to watch movie trailers and read comments without logging in. If they want to leave a review, they must login.
-
 I want to access and view my recently watched reviews for trailers. Criteria of Satisfaction: There are accessible recent reviews features in the user's account.
 
 I want to create another account with the same email to create a different genre watch list. Criteria of Satisfaction: In user’s accounts, they are able to add another account within the same email.
