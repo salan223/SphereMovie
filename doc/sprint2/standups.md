@@ -3,7 +3,7 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Karishma Maharjan
   1. Worked on: SR2.md document and sprint2.md
@@ -15,7 +15,7 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Allen Abraham
   1. Worked on: sprint2.md and SR2.md documents
@@ -29,11 +29,11 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Karishma Maharjan
   1. Worked on: researching on implementing the watchlist feature
-  2. Commit to: implementing the watchlist feature in frontend
+  2. Commit to: implementing the watchlist feature in frontend and testing
   3. Done by: November 29th, 2024
   4. Blockers: None
 
@@ -41,11 +41,11 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Allen Abraham
   1. Worked on: researching on implementing the watchlist feature
-  2. Commit to: implementing the watchlist feature in frontend
+  2. Commit to: implementing the watchlist feature in frontend and testing
   3. Done by: November 29th, 2024
   4. Blockers: None
 
@@ -55,11 +55,11 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Karishma Maharjan
-  1. Worked on: implementing the watchlist feature in frontend
-  2. Commit to: implementing the watchlist feature in backend
+  1. Worked on: implementing the watchlist feature in frontend and testing
+  2. Commit to: implementing the watchlist feature in backend and testing
   3. Done by: December 3rd, 2024
   4. Blockers: None
 
@@ -67,11 +67,11 @@
   1. Worked on: 
   2. Commit to: 
   3. Done by: 
-  4. Blockers: 
+  4. Blockers: None
 
 ## Allen Abraham
-  1. Worked on: implementing the watchlist feature in frontend
-  2. Commit to: implementing the watchlist feature in backend
+  1. Worked on: implementing the watchlist feature in frontend and testing
+  2. Commit to: implementing the watchlist feature in backend and testing
   3. Done by: December 3rd, 2024
   4. Blockers: None
 
@@ -79,24 +79,24 @@
 # Standup 4 - December 3rd, 2024
 ## Murtaza Hussaini
   1. Worked on: 
-  2. Commit to: peer evaluation, 
+  2. Commit to: testing code, peer evaluation, 
   3. Done by: today
   4. Blockers: none
 
 ## Karishma Maharjan
-  1. Worked on: implementing the watchlist feature in backend
-  2. Commit to: peer evaluation, system design document, update user stories
+  1. Worked on: implementing the watchlist feature in backend and testing
+  2. Commit to: testing code, peer evaluation, system design document, update user stories
   3. Done by: today
   4. Blockers: none
 
 ## Salan Bhattarai
   1. Worked on: 
-  2. Commit to: peer evaluation, 
+  2. Commit to: testing code, peer evaluation, 
   3. Done by: today
   4. Blockers: none
 
 ## Allen Abraham
   1. Worked on: implementing the watchlist feature in backend
-  2. Commit to: peer evaluation, system design document
+  2. Commit to: testing code, peer evaluation, system design document
   3. Done by: today
   4. Blockers: none
