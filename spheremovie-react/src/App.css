@@ -16,3 +16,23 @@ body{
   color:white;
   margin-top:10px;
 }
+.rating {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.star {
+  font-size: 24px;
+  color: gray;
+  transition: color 0.2s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.star:hover {
+  color: gold;
+}

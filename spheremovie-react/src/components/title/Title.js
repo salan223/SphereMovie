@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -115,3 +116,4 @@ const Title = ({onSearchMovie, handleClearSearch}) => {
 };
 
 export default Title;
+

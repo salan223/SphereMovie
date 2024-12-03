@@ -200,3 +200,17 @@
         font-size: 25px; 
     }
 }
+.language-toggle button {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.language-toggle button:hover {
+    background-color: #0056b3;
+}
