@@ -1,4 +1,4 @@
-User Stories:
+# User Stories
 
 Search specific movie by title Criteria of Satisfaction: Filters the movie trailer by its title to easily navigate.
 
