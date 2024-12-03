@@ -21,11 +21,10 @@ Each of our team members commited at least up to 20 hours per week which totals 
   - 
 
 ### Task breakdowns: 
-- Frontend and Backend Development:
-  Working on making sure the trailer videos play, and able to give review stars.
-  Working on the watchlist feature on the website for all the trailers to be saved.
-  Working on making sure the search bar works for when the users search for movies and are able to change multilingual languages specifically English and French.
-  
-- Documents:
-  Working on updating the standups, system design document, and user stories.
+  1. Murtaza Hussaini - Frontend and backend development in search bar making sure users can search for movie trailers. Update SR1.md and SR2.md and standups documents.
+  2. Karishma Maharjan - Frontend and backend development in implementing watchlist feature for all the movie trailers that could be saved or removed to watch later. Update SR1.md, SR2.md, standups, and system design documents.
+  3. Salan Bhattarai - Frontend and backend development in developing and implementing the movie trailers videos, review stars, and adding multilingual language option. Update in SR1.md, SR2.md, user stories and standups documents.
+  4. Allen Abraham - Frontend and backend development in implementing watchlist feature for all the movie trailers that could be saved or removed to watch later. Update SR1.md, SR2.md, standups, and system design documents.
+#### NOTE: Everyone did testing and reviews.
+
 
