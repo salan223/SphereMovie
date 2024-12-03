@@ -13,7 +13,7 @@ Each of our team members commited at least up to 20 hours per week which totals 
 
 ### Participants recorded: 
   1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
-  2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Documents
+  2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Tester, edit documents
   3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Documents
   4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
 
