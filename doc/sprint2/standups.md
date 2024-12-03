@@ -79,24 +79,24 @@
 # Standup 4 - December 3rd, 2024
 ## Murtaza Hussaini
   1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
-  4. Blockers: 
+  2. Commit to: peer evaluation, 
+  3. Done by: today
+  4. Blockers: none
 
 ## Karishma Maharjan
-  1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
-  4. Blockers: 
+  1. Worked on: implementing the watchlist feature in backend
+  2. Commit to: peer evaluation, system design document, update user stories
+  3. Done by: today
+  4. Blockers: none
 
 ## Salan Bhattarai
   1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
-  4. Blockers: 
+  2. Commit to: peer evaluation, 
+  3. Done by: today
+  4. Blockers: none
 
 ## Allen Abraham
-  1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
-  4. Blockers:
+  1. Worked on: implementing the watchlist feature in backend
+  2. Commit to: peer evaluation, system design document
+  3. Done by: today
+  4. Blockers: none
