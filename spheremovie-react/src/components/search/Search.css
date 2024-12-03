@@ -1,5 +1,5 @@
 .search-bar-container {
-    width: 80%;
+    width: 30%;
     display: flex;
     align-items: center;
     padding: 0 16px;
@@ -20,7 +20,15 @@
 }
 
 .search-icon {
-    font-size: 16px;
+    font-size: 20px;
     color: gray;
     margin: 8px 0;
+    padding-right: 10px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+}
+
+.search-icon:hover {
+    color: black; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate it's interactive */
 }

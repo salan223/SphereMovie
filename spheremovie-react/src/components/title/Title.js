@@ -92,7 +92,7 @@ const Title = ({onSearchMovie, handleClearSearch}) => {
                             </Dropdown.Menu>
                         </Dropdown>
                     </li>
-                    <li><NavLink to="/watchlist" className="nav-item">Watch List</NavLink></li>
+                   
                    
                 </ul>
                 <div className="auth-buttons">
