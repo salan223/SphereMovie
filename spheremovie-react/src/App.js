@@ -16,6 +16,7 @@ function App() {
   const [movies, setMovies] = useState();
   const [movie, setMovie] = useState();
   const [reviews, setReviews] = useState([]);
+  const [isSearch, setIsSearch] = useState(false);
 
   const getMovies = async () =>{
     
@@ -54,13 +55,36 @@ function App() {
 
   }
 
+    // Search for a movie
+    const onSearchMovie = async (query) => {
+      try {
+        const response = await api.get("/api/v1/movies/search", {
+          params: { query },
+        });
+    
+        console.log(response);
+        
+        if (response.data && response.data.length > 0) {
+          setIsSearch(true);
+          setMovies(response.data);
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    };    
+
+    const handleClearSearch = () => {
+      setIsSearch(false);
+      getMovies();
+    }
+
   useEffect(() => {
     getMovies();
   },[])
 
   return (
     <div className="App">
-      <Title/>
+      <Title onSearchMovie={onSearchMovie} handleClearSearch={handleClearSearch}/>
       <Routes>
           <Route path="/" element={<Layout/>}>
             <Route path="/" element={<Home movies={movies} />} ></Route>

@@ -5,12 +5,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilm } from "@fortawesome/free-solid-svg-icons";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 import "./Title.css";
+import Search from "../search/Search";
 
-const Title = () => {
+const Title = ({onSearchMovie, handleClearSearch}) => {
     const [displayText, setDisplayText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
     const [loopIndex, setLoopIndex] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(150);
+    const [searchQuery, setSearchQuery] = useState("");
+
+    const handleSearch = () => {
+        if(searchQuery) {
+            onSearchMovie(searchQuery);
+        }
+    }
+    
+    const onClearSearch = () => { 
+        setSearchQuery("");
+        handleClearSearch();
+    }
 
     const words = ["Discover Blockbusters", "Watch Trailers", "Become a Movie Critic", "Uncover Trending Films"]; // Words to type
 
@@ -90,6 +103,13 @@ const Title = () => {
                 <h1 className="main-title">Welcome to SphereMovie</h1>
                 <p className="typing-effect">{displayText}<span className="cursor">|</span></p>
             </div>
+            <Search
+              value={searchQuery} 
+              onChange={({target}) => {
+                setSearchQuery(target.value);
+              }} 
+              handleSearch={handleSearch}
+              onClearSearch={onClearSearch}/>
         </header>
     );
 };

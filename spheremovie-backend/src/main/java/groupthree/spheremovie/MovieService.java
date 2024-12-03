@@ -18,4 +18,8 @@ public class MovieService {
     public Optional<Movie> findMovieByImdbId(String imdbId) {
         return repository.findMovieByImdbId(imdbId);
     }
-}
+
+    public List<Movie> searchMoviesByTitle(String query) {
+        return repository.findByTitleContainingIgnoreCase(query);
+    }
+ }
