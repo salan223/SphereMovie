@@ -98,5 +98,5 @@
 ## Allen Abraham
   1. Worked on: implementing the watchlist feature in backend, testing, and burndown chart
   2. Commit to: testing code, peer evaluation, system design document, record 5 mins video
-  3. Done by: 
+  3. Done by: today
   4. Blockers: none
