@@ -4,7 +4,7 @@
   1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
   2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Tester, edit documents
   3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Tester, edit documents
-  4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
+  4. Allen Abraham - Backend and Frontend developer, Reviewer, Tester, Edit Documents
 
 ### Unfinished tasks:
 - watchlist feature
@@ -22,7 +22,8 @@
 - spending enough time per week
 
 ## New practices to use during next sprint:
-- trying to spend more time per week
+- Trying to spend more time per week
+- Structure the tasks more clearly and effectively 
 
 ## Best/worst experience during sprint 1:
 - fun collaborating with team members
