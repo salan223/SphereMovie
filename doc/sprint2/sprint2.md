@@ -18,7 +18,7 @@ Each of our team members commited at least up to 20 hours per week which totals 
   1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
   2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Tester, edit documents
   3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Tester, edit documents
-  4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
+  4. Allen Abraham - Backend and Frontend developer, Reviewer, Tester, Edit Documents
 
 ### Decisions about user stories: 
   - Our priority for the users to be able to create accounts or another account with same email to watch different genres won't be necessary as users can access to watch trailers and look at reviews without creating an account.
