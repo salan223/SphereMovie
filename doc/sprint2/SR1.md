@@ -1,7 +1,7 @@
 ## Meeting Date and Time: Nov 22nd, 2024, 2:15pm
 
 ### Participants: 
-  1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents .
+  1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
   2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Tester, edit documents
   3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Tester, edit documents
   4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
