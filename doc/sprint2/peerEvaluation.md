@@ -1,9 +1,10 @@
-Murtaza Hussaini:
+#### Murtaza Hussaini:
 
 
-Karishma Maharjan: All the team members worked good and collaborated as a team. Everyone was very supportive and helpful. 
+#### Karishma Maharjan: 
+All the team members worked good and collaborated as a team. Everyone was very supportive and helpful. 
 
-Salan Bhattarai:
+#### Salan Bhattarai:
 
 
-Allen Abraham:
+#### Allen Abraham:
