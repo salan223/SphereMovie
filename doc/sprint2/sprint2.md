@@ -8,6 +8,7 @@
   5. As a user I would want to browse the website on my phone, so I can explore movies easily. Criteria of Satisfaction: Users are able to browse and access the website on phones as well and watch movie trailers easily.
   6. As a user, I want to be able to edit or delete my reviews or rating. Criteria of Satisfaction: Users can edit their submitted reviews or delete it completely and the change should reflect immediately on the page.
   7. I want to get movie trailer recommendations based on my interest in genres. Criteria of Satisfaction: Based on the user's previous reviews and history of movie trailers, the user gets movie trailer recommendations.
+  8. I want to sort movies based on yearly releases or popularity and top trending. Criteria of Satisfaction: Sorting options available on the browsing page which reorganised based on selected sorting criteria.
 
 
 ### Team capacity recorded: 
