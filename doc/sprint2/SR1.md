@@ -10,6 +10,7 @@
 - watchlist feature
 - watching trailer
 - giving star reviews
+- Average star reviews based on all reviews
 - multilingual language option
 - update the documents like PB.md, SR2.md, sprint2.md, and system design
   
@@ -27,3 +28,4 @@
 - fun collaborating with team members
 - a lot of communication, team work and support to one another
 - making sure of one another that we are on track
+- 
