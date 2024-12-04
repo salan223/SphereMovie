@@ -28,4 +28,3 @@
 - fun collaborating with team members
 - a lot of communication, team work and support to one another
 - making sure of one another that we are on track
-- 
