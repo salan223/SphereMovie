@@ -71,7 +71,7 @@
 
 ## Allen Abraham
   1. Worked on: implementing the watchlist feature in frontend and testing
-  2. Commit to: implementing the watchlist feature in backend and testing
+  2. Commit to: implementing the watchlist feature in backend, testing, and burndown chart
   3. Done by: December 3rd, 2024
   4. Blockers: None
 
@@ -96,7 +96,7 @@
   4. Blockers: none
 
 ## Allen Abraham
-  1. Worked on: implementing the watchlist feature in backend
-  2. Commit to: testing code, peer evaluation, system design document
+  1. Worked on: implementing the watchlist feature in backend, testing, and burndown chart
+  2. Commit to: testing code, peer evaluation, system design document, record 5 mins video
   3. Done by: 
   4. Blockers: none
