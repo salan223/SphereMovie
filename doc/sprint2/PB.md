@@ -1,7 +1,7 @@
 # User Stories
 
 Search specific movie by title Criteria of Satisfaction: Filters the movie trailer by its title to easily navigate.
-Search specific movie by title Criteria of Satisfaction: Filters the movie trailer by its title to easily navigate.
+
 Sort movies based on genres. Criteria of Satisfaction: To be able to filter movies by genre, multiple genre selection feature to allow a broad list of movies.
 
 Account Creation to access review and personalised features. Criteria of Satisfaction: Sign up page is easy to navigate and user friendly, that allows you to log in with username and password where valid email is mandatory.
