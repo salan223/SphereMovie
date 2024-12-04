@@ -20,7 +20,7 @@ I want to access and view my recently watched reviews for trailers. Criteria of 
 
 I want to create another account with the same email to create a different genre watch list. Criteria of Satisfaction: In user’s accounts, they are able to add another account within the same email.
 
-I want to get movie trailer recommendations based on my interest in genres. Criteria of Satisfaction: Based on the user's previous reviews and history of movie trailers, the user gets movie trailer recommendations.
+I want to get movie trailer recommendations based on my interest on various genres. Criteria of Satisfaction: Based on the user's previous reviews and history of movie trailers, the user gets movie trailer recommendations.
 
 As a user I would want to browse the website on my phone, so I can explore movies easily. Criteria of Satisfaction: Users are able to browse and access the website on phones as well and watch movie trailers easily.
 
