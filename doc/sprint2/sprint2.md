@@ -6,6 +6,8 @@
   3. General overview of the movie once clicked like genre, rating, cast, director etc. Criteria of Satisfaction: Movie details displayed on the same page below the trailer with all the mentioned information.
   4. As a user, I want to create a watchlist to save movies to watch later. Criteria of Satisfaction: Users can create a watchlist easily as it is directly on the website home page and watch saved movie trailers.
   5. As a user I would want to browse the website on my phone, so I can explore movies easily. Criteria of Satisfaction: Users are able to browse and access the website on phones as well and watch movie trailers easily.
+  6. As a user, I want to be able to edit or delete my reviews or rating. Criteria of Satisfaction: Users can edit their submitted reviews or delete it completely and the change should reflect immediately on the page.
+  7. I want to get movie trailer recommendations based on my interest in genres. Criteria of Satisfaction: Based on the user's previous reviews and history of movie trailers, the user gets movie trailer recommendations.
 
 
 ### Team capacity recorded: 
