@@ -1,6 +1,6 @@
 ## Sprint Goal: Goal is to create the features in SphereMovie to have the functionality for users to access watching and reviewing trailers, to add trailers to the watchlist, searching movies, and multilingual language.
 
-### User Stories identified: 
+### User Stories identified: .
   1. Search specific movie by title. Criteria of Satisfaction: Filters the movie trailer by its title to easily navigate.
   2. Sort movies based on genres. Criteria of Satisfaction: To be able to filter movies by genre, multiple genre selection feature to allow a broad list of movies.
   3. General overview of the movie once clicked like genre, rating, cast, director etc. Criteria of Satisfaction: Movie details displayed on the same page below the trailer with all the mentioned information.
