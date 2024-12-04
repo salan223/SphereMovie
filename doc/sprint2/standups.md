@@ -1,8 +1,8 @@
 # Standup 1 - November 22nd, 2024
 ## Murtaza Hussaini
-  1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
+  1. Worked on: Started implementing the search functionality for the SphereMovie website.
+  2. Commit to: Completing the initial version of the search functionality.
+  3. Done by: November 25th, 2024.
   4. Blockers: None
 
 ## Karishma Maharjan
@@ -26,9 +26,9 @@
 
 # Standup 2 - November 25th, 2024
 ## Murtaza Hussaini
-  1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
+  1. Worked on: Completed the implementation of the search functionality and integrated it with the backend API.
+  2. Commit to: Refining the search results and improving user experience.
+  3. Done by: November 29th, 2024.
   4. Blockers: None
 
 ## Karishma Maharjan
@@ -52,9 +52,9 @@
 
 # Standup 3 - November 29th, 2024
 ## Murtaza Hussaini
-  1. Worked on: 
-  2. Commit to: 
-  3. Done by: 
+  1. Worked on: Tested and optimized the search functionality for better accuracy and performance.
+  2. Commit to: Assisting with testing the overall app and reviewing code for sprint completion.
+  3. Done by: December 3rd, 2024.
   4. Blockers: None
 
 ## Karishma Maharjan
@@ -78,8 +78,8 @@
 
 # Standup 4 - December 3rd, 2024
 ## Murtaza Hussaini
-  1. Worked on: 
-  2. Commit to: testing code, peer evaluation, 
+  1. Worked on: Finalized testing the code and contributed to the peer evaluation.
+  2. Commit to: Testing code, completing peer evaluation.
   3. Done by: today
   4. Blockers: none
 
