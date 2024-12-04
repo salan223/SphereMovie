@@ -1,3 +1,4 @@
+
 .movie-carousel-container{
     width: 100vw;
     background-color: black;
@@ -72,8 +73,8 @@
 .watchlist-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px; /* Space between items */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    gap: 20px; 
+    overflow-x: auto; 
     padding: 10px;
     background-color: #222730;
     border-radius: 10px;
@@ -83,7 +84,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px; /* Set a fixed width for each item */
+    width: 150px; 
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -105,28 +106,27 @@
     margin-top: 5px;
 }
 
-/* Increase button size */
+
 .movie-review-button-container .btn-info {
-    width: 100px; /* Adjust the width as needed */
-    height: 45px; /* Optional: Increase the height */
-    font-size: 16px; /* Adjust font size */
+    width: 100px; 
+    height: 45px; 
+    font-size: 16px; 
     text-align: center;
-    line-height: normal; /* Ensure proper text alignment */
+    line-height: normal; 
 }
 
-/* Add to Watchlist button size */
+
 .movie-watchlist-button-container .btn-primary {
-    width: 150px; /* Match the width for consistency */
-    height: 45px; /* Optional: Increase the height */
+    width: 150px; 
+    height: 45px; 
     font-size: 16px;
     text-align: center;
     line-height: normal;
 }
 
-/* Add spacing between buttons */
+
 .movie-buttons-container {
     display: flex;
-    gap: 20px; /* Add space between buttons */
+    gap: 20px; 
 }
-
 

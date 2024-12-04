@@ -9,11 +9,11 @@ const Reviews = () => {
     const [movie, setMovie] = useState(null); // State for the selected movie
     const [reviews, setReviews] = useState([]); // State for reviews
     const [averageRating, setAverageRating] = useState(0); // State for average rating
+    const [editingIndex, setEditingIndex] = useState(null); // State to track editing review index
     const revText = useRef(); // Reference for review text input
     const { movieId } = useParams(); // Get movie ID from the route params
     const navigate = useNavigate();
 
-    // Fetch movie details and reviews
     useEffect(() => {
         const fetchMovieData = async () => {
             try {
@@ -36,7 +36,6 @@ const Reviews = () => {
         const reviewText = revText.current.value;
         if (!reviewText || !rating) return; // Avoid empty reviews or ratings
 
-        // Add the new review to the local state
         const newReview = {
             body: reviewText,
             rating: rating,
@@ -45,20 +44,44 @@ const Reviews = () => {
         const updatedReviews = [...reviews, newReview];
         setReviews(updatedReviews); // Update reviews state
         calculateAverageRating(updatedReviews); // Recalculate the average rating
-
-        // Clear the review input
-        revText.current.value = '';
+        revText.current.value = ''; // Clear input
     };
 
     const calculateAverageRating = (reviews) => {
         if (reviews.length === 0) {
-            setAverageRating(0); // Set to 0 if no reviews
+            setAverageRating(0);
             return;
         }
 
         const totalRating = reviews.reduce((sum, review) => sum + review.rating, 0);
         const avgRating = totalRating / reviews.length;
-        setAverageRating(avgRating.toFixed(1)); // Set the average rating to 1 decimal place
+        setAverageRating(avgRating.toFixed(1));
+    };
+
+    const deleteReview = (index) => {
+        const updatedReviews = reviews.filter((_, i) => i !== index);
+        setReviews(updatedReviews); // Update reviews state
+        calculateAverageRating(updatedReviews); // Recalculate the average rating
+    };
+
+    const startEditingReview = (index) => {
+        setEditingIndex(index); // Set the index of the review being edited
+        revText.current.value = reviews[index].body; // Pre-fill the text area with the existing review
+    };
+
+    const saveEditedReview = (e, rating) => {
+        e.preventDefault();
+
+        const updatedReviews = [...reviews];
+        updatedReviews[editingIndex] = {
+            body: revText.current.value,
+            rating: rating || updatedReviews[editingIndex].rating,
+        };
+
+        setReviews(updatedReviews); // Update reviews state
+        calculateAverageRating(updatedReviews); // Recalculate the average rating
+        setEditingIndex(null); // Reset editing state
+        revText.current.value = ''; // Clear input
     };
 
     const goToTrailer = () => {
@@ -101,7 +124,11 @@ const Reviews = () => {
                             <p><strong>Average Rating:</strong> {averageRating} ⭐</p>
                             <Row>
                                 <Col>
-                                    <ReviewForm handleSubmit={addReview} revText={revText} labelText="Write a Review?" />
+                                    <ReviewForm
+                                        handleSubmit={editingIndex !== null ? saveEditedReview : addReview}
+                                        revText={revText}
+                                        labelText={editingIndex !== null ? 'Edit your Review' : 'Write a Review'}
+                                    />
                                 </Col>
                             </Row>
                             <Row>
@@ -115,6 +142,21 @@ const Reviews = () => {
                                         <Row>
                                             <Col>
                                                 <p><strong>Review:</strong> {review.body}</p>
+                                            </Col>
+                                            <Col>
+                                                <Button
+                                                    variant="warning"
+                                                    onClick={() => startEditingReview(index)}
+                                                    style={{ marginRight: '10px' }}
+                                                >
+                                                    Edit
+                                                </Button>
+                                                <Button
+                                                    variant="danger"
+                                                    onClick={() => deleteReview(index)}
+                                                >
+                                                    Delete
+                                                </Button>
                                             </Col>
                                         </Row>
                                         <Row>

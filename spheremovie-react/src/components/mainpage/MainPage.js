@@ -127,5 +127,3 @@ const Hero = ({ movies }) => {
 };
 
 export default Hero;
-
-
