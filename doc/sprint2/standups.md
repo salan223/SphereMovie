@@ -92,7 +92,7 @@
 ## Salan Bhattarai
   1. Worked on: implement the multilingual language option and test
   2. Commit to: test code and complete peer evaluation
-  3. Done by: 
+  3. Done by: today
   4. Blockers: none
 
 ## Allen Abraham
