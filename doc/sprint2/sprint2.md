@@ -18,7 +18,9 @@ Each of our team members commited at least up to 20 hours per week which totals 
   4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
 
 ### Decisions about user stories: 
-  - 
+  - Our priority for the users to be able to create accounts or another account with same email to watch different genres won't be necessary as users can access to watch trailers and look at reviews without creating an account.
+  - users to have access to their history on movie trailers and reviews where they can edit or delete
+  - users to have access to notifications for any likes, reviews, or any upcoming new movie trailers 
 
 ### Task breakdowns: 
   1. Murtaza Hussaini - Frontend and backend development in search bar making sure users can search for movie trailers. Update SR1.md and SR2.md and standups documents.
