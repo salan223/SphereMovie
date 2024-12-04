@@ -10,7 +10,7 @@ Murtaza Hussaini
 With these released features in SphereMovie, the users can access watching and reviewing trailers, to add trailers to the watchlist, searching movies, and multilingual language.
 
 ### Participants: 
-  1. Murtaza Hussaini - Backend and Frontend developer, Reviewer, Documents
+  1. Murtaza  - Backend and Frontend developer, Reviewer, Documents
   2. Karishma Maharjan - Backend and Frontend developer, Reviewer, Tester, edit documents
   3. Salan Bhattarai - Backend and Frontend developer, Reviewer, Tester, edit documents
   4. Allen Abraham - Backend and Frontend developer, Reviewer, Documents
