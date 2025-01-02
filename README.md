@@ -7,7 +7,7 @@ We are planning to use pull request once the actual coding for the project start
 
 ## Installation
 ```
-git clone https://github.com/hvpham-yorku/project-group_3.git
+git clone https://github.com/salan223/SphereMovie.git
 ```
 ### Backend 
 ```
